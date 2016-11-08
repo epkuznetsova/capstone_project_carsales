@@ -1,2 +1,2 @@
-# capstone_project: Multi-Objective Problem on the example of buying a car.
-GA Capstone Project
+# capstone_project: Multi-Objective Optimization Problem on the example of buying a car.
+Imagine you want to buy a car. Usually you know which make and model you want. Let's assume that you are planning to buy Toyota Corolla. You go to a website to check avaliable cars.  
