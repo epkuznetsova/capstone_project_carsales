@@ -7,6 +7,8 @@ Let's assume that someone is planning to buy Toyota Corolla. He or she goes to a
 
 Let's have a look at those three as an example:
 
+![](table.jpeg)
+
 It is unclear which one is the best deal. Because a buyer wants the chipest car with the least odometer and the newest one at the same time. This simple problem is the example multi-objective optimization problem and finding non-dominated solutions.
 
 For this particular case it is required to minimize all the objectives. So pareto-frontier will look like this (in 2D case):
