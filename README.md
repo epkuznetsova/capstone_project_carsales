@@ -19,6 +19,7 @@ To understand the problem let's have a look at those four as an example:
 
 
 It is unclear which one is the best deal. Because a buyer wants the chipest car with the least odometer and the newest one at the same time. This simple problem is the example multi-objective optimization problem and finding non-dominated solutions.
+https://en.wikipedia.org/wiki/Multi-objective_optimization
 
 For this particular case it is required to minimize all the objectives (price, age and odometer). So Pareto-frontier will look like this (in 2D case):
 ![](./pics/300px-Front_pareto.svg.png)
@@ -37,4 +38,19 @@ Final data set used for analysis is saved as "corolla.csv"
 
 ### Modelling
 
-For building Pareto surface I used NSGA-II. 
+Optimization of three objective will result in building surface of non-dominated solutions. 
+https://en.wikipedia.org/wiki/Pareto_efficiency
+
+For building Pareto surface I used NSGA-II(non-dominated sorting genetic algorithm). Genetic algorithm mimics evolution process. Solutions are sorted on a base of their fitness score. At each step genetic algorithm simulates the survival generation of the fittest among individuals over consecutive generation for solving a multiobjective problem. Each individual represents a point in a search space and a possible solution. The survived individuals in the population are then made to go through a process of evolution.
+
+Epsiolon parameter sets resolution of solutions found. 
+For epsilon = 1e-9 (for all three dimentions), there are 133 non-dominated solutions (out of original 3397):
+
+![] (./pics/3d1e-9.png)
+
+Futher customization allows reducing number of solutions:
+
+
+
+http://ieeexplore.ieee.org/document/5335372/
+
