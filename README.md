@@ -37,4 +37,4 @@ Final data set used for analysis is saved as "corolla.csv"
 
 ### Modelling
 
-For building Pareto surface I used NSGA-II. Pote 
+For building Pareto surface I used NSGA-II. 
