@@ -33,6 +33,8 @@ Original data set was really messy mainly because all the car make features were
  
 ![] (./pics/pastedImage0.png)
 
+Final data set used for analysis is saved as "corolla.csv"
 
+### Modelling
 
-
+For building Pareto surface I used NSGA-II. Pote 
