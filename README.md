@@ -50,7 +50,30 @@ For epsilon = 1e-9 (for all three dimentions), there are 133 non-dominated solut
 
 Futher customization allows reducing number of solutions:
 
+![] (./pics/figure_1-15.png)
+![] (./pics/figure_1-14.png)
+![] (./pics/figure_1-13.png)
+![] (./pics/figure_1-12.png)
+![] (./pics/figure_1-11.png)
 
+### References
+1. Kalyanmoy Deb (23 March 2009). Multi-Objective Optimization Using Evolutionary Algorithms. John Wiley & Sons. ISBN 978-0-470-74361-4. Retrieved 1 November 2012.
+ 
+2. Nondominated sorting for multi-objective problems by matthewjwoodruff and jdherman
 
-http://ieeexplore.ieee.org/document/5335372/
+3. https://en.wikipedia.org/wiki/Pareto_efficiency
+
+4. https://en.wikipedia.org/wiki/Multi-objective_optimization
+
+5. http://www.iitk.ac.in/kangal/index.shtml: Kanpur Genetic Algorithms Laboratory Homepage
+
+5. http://waterprogramming.wordpress.com: Waterprogramming Research Blog
+
+6. Deb, K., M. Mohan, and S. Mishra. 2005 "Evaluating the epsilon-domination based multiobjective evolutionary algorithm for a quick computation of Pareto-optimal solutions" Evolutionary Computation Journal 13 (4): 501-525.
+
+7. Deb, K., A. Pratap, S. Agarwal, and T. Meyarivan. 2002. "A fast and elitist multiobjective genetic algorithm: NSGA-II." 
+
+8. IEEE Transactions on Evolutionary Computation 6 (2): 182-197.
+
+9. Srinivas, N., and K. Deb. 1994. "Multiobjective optimization using nondominated sorting in genetic algorithms." Evolutionary Computation 2 (2): 221-248.
 
