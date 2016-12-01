@@ -11,14 +11,14 @@
 In my Capstone Progect at General Assembly I used Evolutionary Genetic Algorithm (NSGA-II) to solve multiobjective problem.
 
 ### Problem statement:
-Smeone is planning to buy a car. Assumption: buyer usually know which car make he or she wants. this assumption was made because most of car makes have its own rate of price decrease (I found it out after scraping data for different car makes). For my analysis I picked most popular car in Australia - Toyota Corolla. The most important features are price, age and odometer (our objectives). 
+Let's assume someone is planning to buy a car. A buyer usually knows which car make he or she wants. This is necessary assumption because most of car makes have its own rate of price decrease (I found it out after scraping data for different car makes). For my analysis I picked most popular car in Australia - Toyota Corolla. The most important features are price, age and odometer reading (our objectives). 
 
 To understand the problem let's have a look at those four as an example:
 
 ![](./pics/table.jpg)
 
 
-It is unclear which one is the best deal. Because a buyer wants the cheapest car with the least odometer and the newest one at the same time. This simple problem is the example multi-objective optimization problem and finding non-dominated solutions.
+It is unclear which one is the best deal. Because a buyer wants the cheapest car with lowest odometer reading (the least milage) and the newest one at the same time. This simple problem is an example multi-objective optimization problem and finding non-dominated solutions.
 https://en.wikipedia.org/wiki/Multi-objective_optimization
 
 For this particular case it is required to minimize all the objectives (price, age and odometer). So Pareto-frontier will look like this (in 2D case):
@@ -43,7 +43,7 @@ https://en.wikipedia.org/wiki/Pareto_efficiency
 
 For building Pareto surface I used NSGA-II(non-dominated sorting genetic algorithm). Genetic algorithm mimics evolution process. Solutions are sorted on a base of their fitness score. At each step genetic algorithm simulates the survival generation of the fittest among individuals over consecutive generation for solving a multiobjective problem. Each individual represents a point in a search space and a possible solution. The survived individuals in the population are then made to go through a process of evolution.
 
-Epsiolon parameter sets resolution of solutions found. 
+Epsilon parameter sets resolution of solutions found. 
 For epsilon = 1e-9 (for all three dimentions), there are 133 non-dominated solutions (out of original 3397):
 
 ![] (./pics/3d1e-9.png)
